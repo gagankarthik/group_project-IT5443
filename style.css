@@ -21,7 +21,8 @@
   }
   .hero{
     height: 80vh;
-    background: rgb(2,0,36);
+    /*background: rgb(2,0,36);*/
+    background-image:url(images/nat.jpg);
     border-radius: 25px;
     margin: 28px;
     padding: 24px;
@@ -122,8 +123,10 @@
     display: flex;
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
-    color: #2f2f2f;
-    background-color: #fff;
+    color: #fff;
+    background-image: url(images/aron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-top: 1px solid #e5e5e5;
   }
   
@@ -175,7 +178,7 @@
   }
   
   .nav__ul a {
-    color: #999;
+    color: #f2f2f2;
   }
   
   
@@ -213,7 +216,7 @@
   }
   .banner{
         height: 20vh;
-        background: rgb(15, 10, 116);
+        background-image: url(images/bgcolor.jpg);
         border-radius: 25px;
         margin: 28px;
         padding: 24px;
