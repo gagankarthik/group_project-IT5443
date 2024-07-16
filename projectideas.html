@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projectideas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="getstarted.html">Get Started</a>
+            <a href="projectideas.html">Project Ideas</a>
+        </nav>
+    </header>
+    <section class="banner">
+        <h1>Projects</h1>
+    </section>
+  <section class="projectideas">
+    <h3>Here are some project ideas to get you started. You can also use these ideas
+        to help you think of your own projects.</h3>
+        <div class="card">
+            <h4>Side Panel Sizing</h4>
+            <p>This project will allow users to individually assign the widths of each side panel in the browser (Ex: bookmarks, reading list, history, customize chrome, and more)! Contributors will be using C++ and can use chromium code search to see how current side panels are resized. Once this project is completed users will be able to customize the widths of all their side panels to their preferences! </p>
+            <p>Project Length: 10 Weeks</p>
+            <p>Skills Required: C++</p>
+        </div>
+        <div class="card">
+            <h4>Linux audio capture local muting</h4>
+            <p>We recently landed support for Chrome to capture system audio on Linux for use when casting or screen sharing. However, for use when casting, we need to mute local audio output while system audio is being captured. This project will 1. Update the audio capture implementation to support local muting 2. Improve unit test coverage for the pulseaudio backend in Chrome
+            </p>
+            <p>Project Length: 12 Weeks</p>
+            <p>Skills Required: C++, Linux</p>
+        </div>
+        <div class="card">
+            <h4>Chrome Accept-Language Validation</h4>
+            <p>Keep invalid languages off of Chrome's Accept-Language list. This can happen in a few ways and mostly affects Android users using multiple languages. Fixing this will close multiple long standing Chromium bugs and improve the language settings for Androind/Chrome users. We should also investigate not automatically adding the changed Android system language to Chrome's Accept-Languages. There are opportunities to extend this work into decoupling the Accept-Language list and Never Translate language lists helping make our language settings more streamlined.
+            </p>
+            <p>Project Length: 12 Weeks</p>
+            <p>Skills Required: C++, Java</p>
+        </div>
+        <div class="card">
+            <h4>Integrate Emscripten with JS Promises
+            </h4>
+            <p>mscripten is a compiler and SDK for bringing C/C++ code to the Web via WebAssembly. The Web is an extremely asynchronous environment, with most Web APIs returning JS Promises. C and C++, on the other hand, are typically synchronous, with APIs blocking until they return results. Bridging this gap between synchronous C/C++ and the asynchronous Web is a common pain point for Emscripten's users.
+            </p>
+            <p>Project Length: 12 Weeks</p>
+            <p>Skills Required:Ideally familiar with JS and C. Familiarity with C++ would be a bonus</p>
+        </div>
+
+        
+  </section>
+
+  <section class="contribute">
+    <a href="https://summerofcode.withgoogle.com/programs/2024/organizations/chromium-lj" class="btn">More Ideas </a>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo">Chromium</h1>
+        <p>
+     It aims to build a safer, faster, and more stable
+                way for all users to experience the web.
+        </p>
+        </div>
+        
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Links</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <a href="getstarted.html">Get Started</a>
+              </li>
+      
+              <li>
+                <a href="projectideas.html">Project Ideas</a>
+              </li>
+
+            </ul>
+          </li>
+         </ul>
+         
+        <hr class="line"/>
+        <div class="legal">
+          <p>&copy; 2024 Chromium. All rights reserved.</p>
+          
+        </div>
+      </footer>
+
+</body>
+</html>
